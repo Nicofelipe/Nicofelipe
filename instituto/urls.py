@@ -20,3 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('alumnos/',include('alumnos.urls'))
 ]
+
+print("Holaa")
